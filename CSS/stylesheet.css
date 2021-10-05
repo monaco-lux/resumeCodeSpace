@@ -1,0 +1,71 @@
+body{
+  font-family: arial, sans-serif;
+  font-size:110%;
+  background-color: #FCF7F8;
+  display: flex;
+  flex-direction: column;
+  margin: 0px;
+}
+
+header {
+  text-align: center;
+  justify-content: center;
+}
+
+#heading{
+  font-family: arial, sans-serif;
+  background-color: purple;
+  color: white;
+  padding: 1rem;
+}
+
+#headshot{
+  width: 15%;
+  height: 55%;
+  border-radius: 50%;
+  border: 3px solid gold;
+}
+
+.main{
+  display: flex;
+  flex-direction: row;
+  overflow: unset;
+}
+
+#sidebar {
+  width: 20%;
+  background-color: grey;
+  color: white;
+  padding: 1rem;
+  text-decoration: underline;
+}
+
+.nav-menu {
+  list-style-type: none;
+  color: white;
+  padding: 0;
+}
+
+footer {
+  background-color: purple;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  justify-content: center;
+}
+
+#content {
+  width: 80%;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+.icons{
+  width:3rem;
+  margin: 0.5rem;
+  height: auto;
+}
+
+a { /*Link Color*/
+  color: gold;
+}
